@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body 
+{
+  background-image: url("backkkkk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* NAVBAR */
+.navbar {
+    color: #ff0000;
+    padding: 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.svg1{
+    height: 27px;
+    filter: invert(1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #f80000;
+}
+
+.navbar nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.btn {
+    background: #ff4ecd;
+    border: none;
+    padding: 8px 18px;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    /* background: url("back.jpg") center center / cover no-repeat; */
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    opacity: 0.;
+}
+
+.image{
+    width: 80vw;
+    height: 60vh;
+    border-radius: 20px;
+    position: absolute;
+    /* z-index: 999; */
+}
+
+
+
+.hero-content {
+    max-width: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #ffe600;
+}
+
+.hero p {
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+/* SEARCH */
+.search-box {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input,
+.search-box select {
+    padding: 10px;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.search-box button {
+    background: #5f2c82;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* EVENTS */
+.events {
+    padding: 60px;
+}
+
+.events h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.event-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+
+.event-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.event-card h3 {
+    padding: 15px;
+}
+
+.event-card p {
+    padding: 0 15px 10px;
+    color: #666;
+}
+
+.event-card span {
+    padding: 0 15px 15px;
+    display: block;
+    font-size: 14px;
+    color: #999;
+}
+a {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  color: inherit;        
+  text-decoration: none; 
+}
